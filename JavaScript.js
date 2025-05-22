@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>Enchanted Beauty</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<!-- Contact Form -->
-<form id="contactForm">
-    <input type="text" id="name" placeholder="Your Name" required>
-    <input type="email" id="email" placeholder="Your Email" required>
-    <textarea id="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-</form>
-
-<!-- Testimonials Section -->
-<div id="testimonials">
-    <h3>Testimonials</h3>
-    <div id="testimonialContainer"></div>
-</div>
-
-<button id="scrollTopBtn">Scroll to Top</button>
-
-<script>
-    // 1. Function to validate an email address
+// 1. Function to validate an email address
     function validateEmail(email) {
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailPattern.test(email);
@@ -84,3 +57,6 @@
 </script>
 </body>
 </html>
+
+      
+       
